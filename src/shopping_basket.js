@@ -12,10 +12,9 @@ class shoppingBasket {
 
   getTotalPrice() {
     let total_price = 0
-    const addToTotal = (candy) => {
-      total_price += candy.price
-    };
-    this.contents.map(addToTotal);
+    this.contents.forEach((candy) => {
+      total_price += candy.price;
+    });
     return total_price
   };
 
