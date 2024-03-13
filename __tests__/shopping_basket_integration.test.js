@@ -1,14 +1,3 @@
-// > basket.addItem(candy);
-
-// > basket.getTotalPrice();
-// 4.99
-
-// > basket.addItem(new Candy('Skittle', 3.99));
-// > basket.addItem(new Candy('Skittle', 3.99));
-
-// > basket.getTotalPrice();
-// 12.97
-
 // file: __tests__/shopping_basket_integration.test.js
 
 const shoppingBasket = require('../src/shopping_basket');
